@@ -1,0 +1,529 @@
+
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+</head>
+<label>COUNTRY</label>
+<select id="country" name="country">
+    <option>SELECT COUNTRY</option>
+    <option value="Afghanistan">Afghanistan</option>
+    <option value="Aland Islands">Åland Islands</option>
+    <option value="Albania">Albania</option>
+    <option value="Algeria">Algeria</option>
+    <option value="American Samoa">American Samoa</option>
+    <option value="Andorra">Andorra</option>
+    <option value="Angola">Angola</option>
+    <option value="Anguilla">Anguilla</option>
+    <option value="Antarctica">Antarctica</option>
+    <option value="Antigua and Barbuda">Antigua & Barbuda</option>
+    <option value="Argentina">Argentina</option>
+    <option value="Armenia">Armenia</option>
+    <option value="Aruba">Aruba</option>
+    <option value="Australia">Australia</option>
+    <option value="Austria">Austria</option>
+    <option value="Azerbaijan">Azerbaijan</option>
+    <option value="Bahamas">Bahamas</option>
+    <option value="Bahrain">Bahrain</option>
+    <option value="Bangladesh">Bangladesh</option>
+    <option value="Barbados">Barbados</option>
+    <option value="Belarus">Belarus</option>
+    <option value="Belgium">Belgium</option>
+    <option value="Belize">Belize</option>
+    <option value="Benin">Benin</option>
+    <option value="Bermuda">Bermuda</option>
+    <option value="Bhutan">Bhutan</option>
+    <option value="Bolivia">Bolivia</option>
+    <option value="Bonaire, Sint Eustatius and Saba">Caribbean Netherlands</option>
+    <option value="Bosnia and Herzegovina">Bosnia & Herzegovina</option>
+    <option value="Botswana">Botswana</option>
+    <option value="Bouvet Island">Bouvet Island</option>
+    <option value="Brazil">Brazil</option>
+    <option value="British Indian Ocean Territory">British Indian Ocean Territory</option>
+    <option value="Brunei Darussalam">Brunei</option>
+    <option value="Bulgaria">Bulgaria</option>
+    <option value="Burkina Faso">Burkina Faso</option>
+    <option value="Burundi">Burundi</option>
+    <option value="Cambodia">Cambodia</option>
+    <option value="Cameroon">Cameroon</option>
+    <option value="Canada">Canada</option>
+    <option value="Cape Verde">Cape Verde</option>
+    <option value="Cayman Islands">Cayman Islands</option>
+    <option value="Central African Republic">Central African Republic</option>
+    <option value="Chad">Chad</option>
+    <option value="Chile">Chile</option>
+    <option value="China">China</option>
+    <option value="Christmas Island">Christmas Island</option>
+    <option value="Cocos (Keeling) Islands">Cocos (Keeling) Islands</option>
+    <option value="Colombia">Colombia</option>
+    <option value="Comoros">Comoros</option>
+    <option value="Congo">Congo - Brazzaville</option>
+    <option value="Congo, Democratic Republic of the Congo">Congo - Kinshasa</option>
+    <option value="Cook Islands">Cook Islands</option>
+    <option value="Costa Rica">Costa Rica</option>
+    <option value="Cote D'Ivoire">Côte d’Ivoire</option>
+    <option value="Croatia">Croatia</option>
+    <option value="Cuba">Cuba</option>
+    <option value="Curacao">Curaçao</option>
+    <option value="Cyprus">Cyprus</option>
+    <option value="Czech Republic">Czechia</option>
+    <option value="Denmark">Denmark</option>
+    <option value="Djibouti">Djibouti</option>
+    <option value="Dominica">Dominica</option>
+    <option value="Dominican Republic">Dominican Republic</option>
+    <option value="Ecuador">Ecuador</option>
+    <option value="Egypt">Egypt</option>
+    <option value="El Salvador">El Salvador</option>
+    <option value="Equatorial Guinea">Equatorial Guinea</option>
+    <option value="Eritrea">Eritrea</option>
+    <option value="Estonia">Estonia</option>
+    <option value="Ethiopia">Ethiopia</option>
+    <option value="Falkland Islands (Malvinas)">Falkland Islands (Islas Malvinas)</option>
+    <option value="Faroe Islands">Faroe Islands</option>
+    <option value="Fiji">Fiji</option>
+    <option value="Finland">Finland</option>
+    <option value="France">France</option>
+    <option value="French Guiana">French Guiana</option>
+    <option value="French Polynesia">French Polynesia</option>
+    <option value="French Southern Territories">French Southern Territories</option>
+    <option value="Gabon">Gabon</option>
+    <option value="Gambia">Gambia</option>
+    <option value="Georgia">Georgia</option>
+    <option value="Germany">Germany</option>
+    <option value="Ghana">Ghana</option>
+    <option value="Gibraltar">Gibraltar</option>
+    <option value="Greece">Greece</option>
+    <option value="Greenland">Greenland</option>
+    <option value="Grenada">Grenada</option>
+    <option value="Guadeloupe">Guadeloupe</option>
+    <option value="Guam">Guam</option>
+    <option value="Guatemala">Guatemala</option>
+    <option value="Guernsey">Guernsey</option>
+    <option value="Guinea">Guinea</option>
+    <option value="Guinea-Bissau">Guinea-Bissau</option>
+    <option value="Guyana">Guyana</option>
+    <option value="Haiti">Haiti</option>
+    <option value="Heard Island and Mcdonald Islands">Heard & McDonald Islands</option>
+    <option value="Holy See (Vatican City State)">Vatican City</option>
+    <option value="Honduras">Honduras</option>
+    <option value="Hong Kong">Hong Kong</option>
+    <option value="Hungary">Hungary</option>
+    <option value="Iceland">Iceland</option>
+    <option value="India">India</option>
+    <option value="Indonesia">Indonesia</option>
+    <option value="Iran, Islamic Republic of">Iran</option>
+    <option value="Iraq">Iraq</option>
+    <option value="Ireland">Ireland</option>
+    <option value="Isle of Man">Isle of Man</option>
+    <option value="Israel">Israel</option>
+    <option value="Italy">Italy</option>
+    <option value="Jamaica">Jamaica</option>
+    <option value="Japan">Japan</option>
+    <option value="Jersey">Jersey</option>
+    <option value="Jordan">Jordan</option>
+    <option value="Kazakhstan">Kazakhstan</option>
+    <option value="Kenya">Kenya</option>
+    <option value="Kiribati">Kiribati</option>
+    <option value="Korea, Democratic People's Republic of">North Korea</option>
+    <option value="Korea, Republic of">South Korea</option>
+    <option value="Kosovo">Kosovo</option>
+    <option value="Kuwait">Kuwait</option>
+    <option value="Kyrgyzstan">Kyrgyzstan</option>
+    <option value="Lao People's Democratic Republic">Laos</option>
+    <option value="Latvia">Latvia</option>
+    <option value="Lebanon">Lebanon</option>
+    <option value="Lesotho">Lesotho</option>
+    <option value="Liberia">Liberia</option>
+    <option value="Libyan Arab Jamahiriya">Libya</option>
+    <option value="Liechtenstein">Liechtenstein</option>
+    <option value="Lithuania">Lithuania</option>
+    <option value="Luxembourg">Luxembourg</option>
+    <option value="Macao">Macao</option>
+    <option value="Macedonia, the Former Yugoslav Republic of">North Macedonia</option>
+    <option value="Madagascar">Madagascar</option>
+    <option value="Malawi">Malawi</option>
+    <option value="Malaysia">Malaysia</option>
+    <option value="Maldives">Maldives</option>
+    <option value="Mali">Mali</option>
+    <option value="Malta">Malta</option>
+    <option value="Marshall Islands">Marshall Islands</option>
+    <option value="Martinique">Martinique</option>
+    <option value="Mauritania">Mauritania</option>
+    <option value="Mauritius">Mauritius</option>
+    <option value="Mayotte">Mayotte</option>
+    <option value="Mexico">Mexico</option>
+    <option value="Micronesia, Federated States of">Micronesia</option>
+    <option value="Moldova, Republic of">Moldova</option>
+    <option value="Monaco">Monaco</option>
+    <option value="Mongolia">Mongolia</option>
+    <option value="Montenegro">Montenegro</option>
+    <option value="Montserrat">Montserrat</option>
+    <option value="Morocco">Morocco</option>
+    <option value="Mozambique">Mozambique</option>
+    <option value="Myanmar">Myanmar (Burma)</option>
+    <option value="Namibia">Namibia</option>
+    <option value="Nauru">Nauru</option>
+    <option value="Nepal">Nepal</option>
+    <option value="Netherlands">Netherlands</option>
+    <option value="Netherlands Antilles">Curaçao</option>
+    <option value="New Caledonia">New Caledonia</option>
+    <option value="New Zealand">New Zealand</option>
+    <option value="Nicaragua">Nicaragua</option>
+    <option value="Niger">Niger</option>
+    <option value="Nigeria">Nigeria</option>
+    <option value="Niue">Niue</option>
+    <option value="Norfolk Island">Norfolk Island</option>
+    <option value="Northern Mariana Islands">Northern Mariana Islands</option>
+    <option value="Norway">Norway</option>
+    <option value="Oman">Oman</option>
+    <option value="Pakistan">Pakistan</option>
+    <option value="Palau">Palau</option>
+    <option value="Palestinian Territory, Occupied">Palestine</option>
+    <option value="Panama">Panama</option>
+    <option value="Papua New Guinea">Papua New Guinea</option>
+    <option value="Paraguay">Paraguay</option>
+    <option value="Peru">Peru</option>
+    <option value="Philippines">Philippines</option>
+    <option value="Pitcairn">Pitcairn Islands</option>
+    <option value="Poland">Poland</option>
+    <option value="Portugal">Portugal</option>
+    <option value="Puerto Rico">Puerto Rico</option>
+    <option value="Qatar">Qatar</option>
+    <option value="Reunion">Réunion</option>
+    <option value="Romania">Romania</option>
+    <option value="Russian Federation">Russia</option>
+    <option value="Rwanda">Rwanda</option>
+    <option value="Saint Barthelemy">St. Barthélemy</option>
+    <option value="Saint Helena">St. Helena</option>
+    <option value="Saint Kitts and Nevis">St. Kitts & Nevis</option>
+    <option value="Saint Lucia">St. Lucia</option>
+    <option value="Saint Martin">St. Martin</option>
+    <option value="Saint Pierre and Miquelon">St. Pierre & Miquelon</option>
+    <option value="Saint Vincent and the Grenadines">St. Vincent & Grenadines</option>
+    <option value="Samoa">Samoa</option>
+    <option value="San Marino">San Marino</option>
+    <option value="Sao Tome and Principe">São Tomé & Príncipe</option>
+    <option value="Saudi Arabia">Saudi Arabia</option>
+    <option value="Senegal">Senegal</option>
+    <option value="Serbia">Serbia</option>
+    <option value="Serbia and Montenegro">Serbia</option>
+    <option value="Seychelles">Seychelles</option>
+    <option value="Sierra Leone">Sierra Leone</option>
+    <option value="Singapore">Singapore</option>
+    <option value="Sint Maarten">Sint Maarten</option>
+    <option value="Slovakia">Slovakia</option>
+    <option value="Slovenia">Slovenia</option>
+    <option value="Solomon Islands">Solomon Islands</option>
+    <option value="Somalia">Somalia</option>
+    <option value="South Africa">South Africa</option>
+    <option value="South Georgia and the South Sandwich Islands">South Georgia & South Sandwich Islands</option>
+    <option value="South Sudan">South Sudan</option>
+    <option value="Spain">Spain</option>
+    <option value="Sri Lanka">Sri Lanka</option>
+    <option value="Sudan">Sudan</option>
+    <option value="Suriname">Suriname</option>
+    <option value="Svalbard and Jan Mayen">Svalbard & Jan Mayen</option>
+    <option value="Swaziland">Eswatini</option>
+    <option value="Sweden">Sweden</option>
+    <option value="Switzerland">Switzerland</option>
+    <option value="Syrian Arab Republic">Syria</option>
+    <option value="Taiwan, Province of China">Taiwan</option>
+    <option value="Tajikistan">Tajikistan</option>
+    <option value="Tanzania, United Republic of">Tanzania</option>
+    <option value="Thailand">Thailand</option>
+    <option value="Timor-Leste">Timor-Leste</option>
+    <option value="Togo">Togo</option>
+    <option value="Tokelau">Tokelau</option>
+    <option value="Tonga">Tonga</option>
+    <option value="Trinidad and Tobago">Trinidad & Tobago</option>
+    <option value="Tunisia">Tunisia</option>
+    <option value="Turkey">Turkey</option>
+    <option value="Turkmenistan">Turkmenistan</option>
+    <option value="Turks and Caicos Islands">Turks & Caicos Islands</option>
+    <option value="Tuvalu">Tuvalu</option>
+    <option value="Uganda">Uganda</option>
+    <option value="Ukraine">Ukraine</option>
+    <option value="United Arab Emirates">United Arab Emirates</option>
+    <option value="United Kingdom">United Kingdom</option>
+    <option value="United States">United States</option>
+    <option value="United States Minor Outlying Islands">U.S. Outlying Islands</option>
+    <option value="Uruguay">Uruguay</option>
+    <option value="Uzbekistan">Uzbekistan</option>
+    <option value="Vanuatu">Vanuatu</option>
+    <option value="Venezuela">Venezuela</option>
+    <option value="Viet Nam">Vietnam</option>
+    <option value="Virgin Islands, British">British Virgin Islands</option>
+    <option value="Virgin Islands, U.s.">U.S. Virgin Islands</option>
+    <option value="Wallis and Futuna">Wallis & Futuna</option>
+    <option value="Western Sahara">Western Sahara</option>
+    <option value="Yemen">Yemen</option>
+    <option value="Zambia">Zambia</option>
+    <option value="Zimbabwe">Zimbabwe</option>
+</select>
+<label>PHONE CODE</label>
+<input type="text" id="phone_code" />
+
+<button id="submit">SUBMIT</button>
+<script>
+$(document).ready(function(){
+    
+
+	$("#country").on("change", function(){
+     var country = $(this).val();
+var phone_code;		
+if(country=="Afghanistan"){phone_code="+93"}
+    else if(country=="Aland Islands"){phone_code="+358"}
+    else if(country=="Albania"){phone_code="+355"}
+    else if(country=="Algeria"){phone_code="+213"}
+    else if(country=="American Samoa"){phone_code="+1684"}
+    else if(country=="Andorra"){phone_code="+376"}
+    else if(country=="Angola"){phone_code="+244"}
+    else if(country=="Anguilla"){phone_code="+1264"}
+    else if(country=="Antarctica"){phone_code="+672"}
+    else if(country=="Antigua and Barbuda"){phone_code="+1268"}
+    else if(country=="Argentina"){phone_code="+54"}
+    else if(country=="Armenia"){phone_code="+374"}
+    else if(country=="Aruba"){phone_code="+297"}
+    else if(country=="Australia"){phone_code="+61"}
+    else if(country=="Austria"){phone_code="+43"}
+    else if(country=="Azerbaijan"){phone_code="+994"}
+    else if(country=="Bahamas"){phone_code="+1242"}
+    else if(country=="Bahrain"){phone_code="+973"}
+    else if(country=="Bangladesh"){phone_code="+880"}
+    else if(country=="Barbados"){phone_code="+1246"}
+    else if(country=="Belarus"){phone_code="+375"}
+    else if(country=="Belgium"){phone_code="+32"}
+    else if(country=="Belize"){phone_code="+501"}
+    else if(country=="Benin"){phone_code="+229"}
+    else if(country=="Bermuda"){phone_code="+1441"}
+    else if(country=="Bhutan"){phone_code="+975"}
+    else if(country=="Bolivia"){phone_code="+591"}
+    else if(country=="Bonaire, Sint Eustatius and Saba"){phone_code="+599"}
+    else if(country=="Bosnia and Herzegovina"){phone_code="+387"}
+    else if(country=="Botswana"){phone_code="+267"}
+    else if(country=="Bouvet Island"){phone_code="+55"}
+    else if(country=="Brazil"){phone_code="+55"}
+    else if(country=="British Indian Ocean Territory"){phone_code="+246"}
+    else if(country=="Brunei Darussalam"){phone_code="+673"}
+    else if(country=="Bulgaria"){phone_code="+359"}
+    else if(country=="Burkina Faso"){phone_code="+226"}
+    else if(country=="Burundi"){phone_code="+257"}
+    else if(country=="Cambodia"){phone_code="+855"}
+    else if(country=="Cameroon"){phone_code="+237"}
+    else if(country=="Canada"){phone_code="+1"}
+    else if(country=="Cape Verde"){phone_code="+238"}
+    else if(country=="Cayman Islands"){phone_code="+1345"}
+    else if(country=="Central African Republic"){phone_code="+236"}
+    else if(country=="Chad"){phone_code="+235"}
+    else if(country=="Chile"){phone_code="+56"}
+    else if(country=="China"){phone_code="+86"}
+    else if(country=="Christmas Island"){phone_code="+61"}
+    else if(country=="Cocos (Keeling) Islands"){phone_code="+672"}
+    else if(country=="Colombia"){phone_code="+57"}
+    else if(country=="Comoros"){phone_code="+269"}
+    else if(country=="Congo"){phone_code="+242"}
+    else if(country=="Congo, Democratic Republic of the Congo"){phone_code="+242"}
+    else if(country=="Cook Islands"){phone_code="+682"}
+    else if(country=="Costa Rica"){phone_code="+506"}
+    else if(country=="Cote D'Ivoire"){phone_code="+225"}
+    else if(country=="Croatia"){phone_code="+385"}
+    else if(country=="Cuba"){phone_code="+53"}
+    else if(country=="Curacao"){phone_code="+599"}
+    else if(country=="Cyprus"){phone_code="+357"}
+    else if(country=="Czech Republic"){phone_code="+420"}
+    else if(country=="Denmark"){phone_code="+45"}
+    else if(country=="Djibouti"){phone_code="+253"}
+    else if(country=="Dominica"){phone_code="+1767"}
+    else if(country=="Dominican Republic"){phone_code="+1809"}
+    else if(country=="Ecuador"){phone_code="+593"}
+    else if(country=="Egypt"){phone_code="+20"}
+    else if(country=="El Salvador"){phone_code="+503"}
+    else if(country=="Equatorial Guinea"){phone_code="+240"}
+    else if(country=="Eritrea"){phone_code="+291"}
+    else if(country=="Estonia"){phone_code="+372"}
+    else if(country=="Ethiopia"){phone_code="+251"}
+    else if(country=="Falkland Islands (Malvinas)"){phone_code="+500"}
+    else if(country=="Faroe Islands"){phone_code="+298"}
+    else if(country=="Fiji"){phone_code="+679"}
+    else if(country=="Finland"){phone_code="+358"}
+    else if(country=="France"){phone_code="+33"}
+    else if(country=="French Guiana"){phone_code="+594"}
+    else if(country=="French Polynesia"){phone_code="+689"}
+    else if(country=="French Southern Territories"){phone_code="+262"}
+    else if(country=="Gabon"){phone_code="+241"}
+    else if(country=="Gambia"){phone_code="+220"}
+    else if(country=="Georgia"){phone_code="+995"}
+    else if(country=="Germany"){phone_code="+49"}
+    else if(country=="Ghana"){phone_code="+233"}
+    else if(country=="Gibraltar"){phone_code="+350"}
+    else if(country=="Greece"){phone_code="+30"}
+    else if(country=="Greenland"){phone_code="+299"}
+    else if(country=="Grenada"){phone_code="+1473"}
+    else if(country=="Guadeloupe"){phone_code="+590"}
+    else if(country=="Guam"){phone_code="+1671"}
+    else if(country=="Guatemala"){phone_code="+502"}
+    else if(country=="Guernsey"){phone_code="+44"}
+    else if(country=="Guinea"){phone_code="+224"}
+    else if(country=="Guinea-Bissau"){phone_code="+245"}
+    else if(country=="Guyana"){phone_code="+592"}
+    else if(country=="Haiti"){phone_code="+509"}
+    else if(country=="Heard Island and Mcdonald Islands"){phone_code="+0"}
+    else if(country=="Holy See (Vatican City State)"){phone_code="+39"}
+    else if(country=="Honduras"){phone_code="+504"}
+    else if(country=="Hong Kong"){phone_code="+852"}
+    else if(country=="Hungary"){phone_code="+36"}
+    else if(country=="Iceland"){phone_code="+354"}
+    else if(country=="India"){phone_code="+91"}
+    else if(country=="Indonesia"){phone_code="+62"}
+    else if(country=="Iran, Islamic Republic of"){phone_code="+98"}
+    else if(country=="Iraq"){phone_code="+964"}
+    else if(country=="Ireland"){phone_code="+353"}
+    else if(country=="Isle of Man"){phone_code="+44"}
+    else if(country=="Israel"){phone_code="+972"}
+    else if(country=="Italy"){phone_code="+39"}
+    else if(country=="Jamaica"){phone_code="+1876"}
+    else if(country=="Japan"){phone_code="+81"}
+    else if(country=="Jersey"){phone_code="+44"}
+    else if(country=="Jordan"){phone_code="+962"}
+    else if(country=="Kazakhstan"){phone_code="+7"}
+    else if(country=="Kenya"){phone_code="+254"}
+    else if(country=="Kiribati"){phone_code="+686"}
+    else if(country=="Korea, Democratic People's Republic of"){phone_code="+850"}
+    else if(country=="Korea, Republic of"){phone_code="+82"}
+    else if(country=="Kosovo"){phone_code="+381"}
+    else if(country=="Kuwait"){phone_code="+965"}
+    else if(country=="Kyrgyzstan"){phone_code="+996"}
+    else if(country=="Lao People's Democratic Republic"){phone_code="+856"}
+    else if(country=="Latvia"){phone_code="+371"}
+    else if(country=="Lebanon"){phone_code="+961"}
+    else if(country=="Lesotho"){phone_code="+266"}
+    else if(country=="Liberia"){phone_code="+231"}
+    else if(country=="Libyan Arab Jamahiriya"){phone_code="+218"}
+    else if(country=="Liechtenstein"){phone_code="+423"}
+    else if(country=="Lithuania"){phone_code="+370"}
+    else if(country=="Luxembourg"){phone_code="+352"}
+    else if(country=="Macao"){phone_code="+853"}
+    else if(country=="Macedonia, the Former Yugoslav Republic of"){phone_code="+389"}
+    else if(country=="Madagascar"){phone_code="+261"}
+    else if(country=="Malawi"){phone_code="+265"}
+    else if(country=="Malaysia"){phone_code="+60"}
+    else if(country=="Maldives"){phone_code="+960"}
+    else if(country=="Mali"){phone_code="+223"}
+    else if(country=="Malta"){phone_code="+356"}
+    else if(country=="Marshall Islands"){phone_code="+692"}
+    else if(country=="Martinique"){phone_code="+596"}
+    else if(country=="Mauritania"){phone_code="+222"}
+    else if(country=="Mauritius"){phone_code="+230"}
+    else if(country=="Mayotte"){phone_code="+262"}
+    else if(country=="Mexico"){phone_code="+52"}
+    else if(country=="Micronesia, Federated States of"){phone_code="+691"}
+    else if(country=="Moldova, Republic of"){phone_code="+373"}
+    else if(country=="Monaco"){phone_code="+377"}
+    else if(country=="Mongolia"){phone_code="+976"}
+    else if(country=="Montenegro"){phone_code="+382"}
+    else if(country=="Montserrat"){phone_code="+1664"}
+    else if(country=="Morocco"){phone_code="+212"}
+    else if(country=="Mozambique"){phone_code="+258"}
+    else if(country=="Myanmar"){phone_code="+95"}
+    else if(country=="Namibia"){phone_code="+264"}
+    else if(country=="Nauru"){phone_code="+674"}
+    else if(country=="Nepal"){phone_code="+977"}
+    else if(country=="Netherlands"){phone_code="+31"}
+    else if(country=="Netherlands Antilles"){phone_code="+599"}
+    else if(country=="New Caledonia"){phone_code="+687"}
+    else if(country=="New Zealand"){phone_code="+64"}
+    else if(country=="Nicaragua"){phone_code="+505"}
+    else if(country=="Niger"){phone_code="+227"}
+    else if(country=="Nigeria"){phone_code="+234"}
+    else if(country=="Niue"){phone_code="+683"}
+    else if(country=="Norfolk Island"){phone_code="+672"}
+    else if(country=="Northern Mariana Islands"){phone_code="+1670"}
+    else if(country=="Norway"){phone_code="+47"}
+    else if(country=="Oman"){phone_code="+968"}
+    else if(country=="Pakistan"){phone_code="+92"}
+    else if(country=="Palau"){phone_code="+680"}
+    else if(country=="Palestinian Territory, Occupied"){phone_code="+970"}
+    else if(country=="Panama"){phone_code="+507"}
+    else if(country=="Papua New Guinea"){phone_code="+675"}
+    else if(country=="Paraguay"){phone_code="+595"}
+    else if(country=="Peru"){phone_code="+51"}
+    else if(country=="Philippines"){phone_code="+63"}
+    else if(country=="Pitcairn"){phone_code="+64"}
+    else if(country=="Poland"){phone_code="+48"}
+    else if(country=="Portugal"){phone_code="+351"}
+    else if(country=="Puerto Rico"){phone_code="+1787"}
+    else if(country=="Qatar"){phone_code="+974"}
+    else if(country=="Reunion"){phone_code="+262"}
+    else if(country=="Romania"){phone_code="+40"}
+    else if(country=="Russian Federation"){phone_code="+70"}
+    else if(country=="Rwanda"){phone_code="+250"}
+    else if(country=="Saint Barthelemy"){phone_code="+590"}
+    else if(country=="Saint Helena"){phone_code="+290"}
+    else if(country=="Saint Kitts and Nevis"){phone_code="+1869"}
+    else if(country=="Saint Lucia"){phone_code="+1758"}
+    else if(country=="Saint Martin"){phone_code="+590"}
+    else if(country=="Saint Pierre and Miquelon"){phone_code="+508"}
+    else if(country=="Saint Vincent and the Grenadines"){phone_code="+1784"}
+    else if(country=="Samoa"){phone_code="+684"}
+    else if(country=="San Marino"){phone_code="+378"}
+    else if(country=="Sao Tome and Principe"){phone_code="+239"}
+    else if(country=="Saudi Arabia"){phone_code="+966"}
+    else if(country=="Senegal"){phone_code="+221"}
+    else if(country=="Serbia"){phone_code="+381"}
+    else if(country=="Serbia and Montenegro"){phone_code="+381"}
+    else if(country=="Seychelles"){phone_code="+248"}
+    else if(country=="Sierra Leone"){phone_code="+232"}
+    else if(country=="Singapore"){phone_code="+65"}
+    else if(country=="Sint Maarten"){phone_code="+1"}
+    else if(country=="Slovakia"){phone_code="+421"}
+    else if(country=="Slovenia"){phone_code="+386"}
+    else if(country=="Solomon Islands"){phone_code="+677"}
+    else if(country=="Somalia"){phone_code="+252"}
+    else if(country=="South Africa"){phone_code="+27"}
+    else if(country=="South Georgia and the South Sandwich Islands"){phone_code="+500"}
+    else if(country=="South Sudan"){phone_code="+211"}
+    else if(country=="Spain"){phone_code="+34"}
+    else if(country=="Sri Lanka"){phone_code="+94"}
+    else if(country=="Sudan"){phone_code="+249"}
+    else if(country=="Suriname"){phone_code="+597"}
+    else if(country=="Svalbard and Jan Mayen"){phone_code="+47"}
+    else if(country=="Swaziland"){phone_code="+268"}
+    else if(country=="Sweden"){phone_code="+46"}
+    else if(country=="Switzerland"){phone_code="+41"}
+    else if(country=="Syrian Arab Republic"){phone_code="+963"}
+    else if(country=="Taiwan, Province of China"){phone_code="+886"}
+    else if(country=="Tajikistan"){phone_code="+992"}
+    else if(country=="Tanzania, United Republic of"){phone_code="+255"}
+    else if(country=="Thailand"){phone_code="+66"}
+    else if(country=="Timor-Leste"){phone_code="+670"}
+    else if(country=="Togo"){phone_code="+228"}
+    else if(country=="Tokelau"){phone_code="+690"}
+    else if(country=="Tonga"){phone_code="+676"}
+    else if(country=="Trinidad and Tobago"){phone_code="+1868"}
+    else if(country=="Tunisia"){phone_code="+216"}
+    else if(country=="Turkey"){phone_code="+90"}
+    else if(country=="Turkmenistan"){phone_code="+7370"}
+    else if(country=="Turks and Caicos Islands"){phone_code="+1649"}
+    else if(country=="Tuvalu"){phone_code="+688"}
+    else if(country=="Uganda"){phone_code="+256"}
+    else if(country=="Ukraine"){phone_code="+380"}
+    else if(country=="United Arab Emirates"){phone_code="+971"}
+    else if(country=="United Kingdom"){phone_code="+44"}
+    else if(country=="United States"){phone_code="+1"}
+    else if(country=="United States Minor Outlying Islands"){phone_code="+1"}
+    else if(country=="Uruguay"){phone_code="+598"}
+    else if(country=="Uzbekistan"){phone_code="+998"}
+    else if(country=="Vanuatu"){phone_code="+678"}
+    else if(country=="Venezuela"){phone_code="+58"}
+    else if(country=="Viet Nam"){phone_code="+84"}
+    else if(country=="Virgin Islands, British"){phone_code="+1284"}
+    else if(country=="Virgin Islands, U.s."){phone_code="+1340"}
+    else if(country=="Wallis and Futuna"){phone_code="+681"}
+    else if(country=="Western Sahara"){phone_code="+212"}
+    else if(country=="Yemen"){phone_code="+967"}
+    else if(country=="Zambia"){phone_code="+260"}
+    else if(country=="Zimbabwe"){phone_code="+263"}
+
+       $("#phone_code").val(phone_code);
+    });
+});
+</script>
